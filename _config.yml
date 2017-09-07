@@ -75,7 +75,7 @@ google_analytics: 'UA-75309233-1'
 favicon: /static/Avatar.png
 
 #你的头像url
-avatar: "http://7xrh75.com1.z0.glb.clouddn.com/Avatar.png"
+avatar: "http://7xrh75.com1.z0.glb.clouddn.com/Avatar1.png"
 
 #是否开启分享
 share_jia: true
