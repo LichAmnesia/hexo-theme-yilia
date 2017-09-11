@@ -116,7 +116,7 @@ slider:
 smart_menu:
   innerArchive: 'Tags'
   friends: false
-  aboutme: 'About Me'
+  aboutme: 'About'
 
 friends:
   友情链接1: http://localhost:4000/
