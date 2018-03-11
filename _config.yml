@@ -1,8 +1,8 @@
 # Header
 
 menu:
-  # 主页: /
-  Archives: /archives
+  主页: /
+  目录: /archives
   # 随笔: /tags/ACM
   
 # SubNav
@@ -30,7 +30,7 @@ subnav:
   #twitter: "#"
   #linkedin: "#"
 
-rss: /atom.xml
+rss: 
 
 # 是否需要修改 root 路径
 # 如果您的网站存放在子目录中，例如 http://yoursite.com/blog，
@@ -78,7 +78,7 @@ favicon: /static/Avatar.png
 avatar: "http://7xrh75.com1.z0.glb.clouddn.com/Avatar1.png"
 
 #是否开启分享
-share_jia: true
+share_jia: false
 
 #评论：1、多说；2、网易云跟帖；3、畅言；4、Disqus 不需要使用某项，直接设置值为false，或注释掉
 #具体请参考wiki：https://github.com/litten/hexo-theme-yilia/wiki/
@@ -114,9 +114,9 @@ slider:
 #smart_menu:
 #  friends: false
 smart_menu:
-  innerArchive: 'Tags'
+  innerArchive: '所有文章'
   friends: false
-  aboutme: 'About'
+  aboutme: '关于我'
 
 friends:
   友情链接1: http://localhost:4000/
