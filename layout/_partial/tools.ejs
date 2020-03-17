@@ -3,6 +3,21 @@
   var hasFriends = theme.smart_menu.friends
   var hasAboutme = theme.smart_menu.aboutme
 %>
+<style>
+  .friend_title {
+      display: inline-block !important;
+      vertical-align: middle;
+      margin-left: 10px;
+  }
+
+  .friend_img {
+      border-radius: 50%;
+      width: 50px;
+      height: auto;
+      display: inline-block;
+  }
+</style>
+
 <div class="tools-col" q-class="show:isShow,hide:isShow|isFalse" q-on="click:stop(e)">
   <div class="tools-nav header-menu">
     <% var count = 0%>
@@ -90,7 +105,8 @@
         <ul class="search-ul">
           <% for (var i in theme.friends){ %>
             <li class="search-li">
-              <a href="<%- url_for(theme.friends[i]) %>" target="_blank" class="search-title"><i class="icon-quo-left icon"></i><%= i %></a>
+              <a href='<%- url_for(theme.friends[i]) %>' target='_blank'><img src='<%- url_for(theme.friends_img[i]) %>' class='friend_img'></a>
+              <a href="<%- url_for(theme.friends[i]) %>" target="_blank" class="search-title friend_title"><i class="icon-quo-left icon"></i><%= i %></a>
             </li>
           <% } %>
         </ul>
