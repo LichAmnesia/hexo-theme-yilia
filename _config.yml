@@ -141,3 +141,7 @@ aboutme:  ACMer long long ago. <br> <br> Worked at Amazon before, <br> Working a
 
 # 首页名字下的副标题
 subtitle: 休言万事转头空，未转头时皆梦
+
+#添加一下js插件的 CDN地址
+js_cdn:
+  jquery: https://code.jquery.com/jquery-3.4.1.min.js

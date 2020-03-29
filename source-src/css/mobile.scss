@@ -12,6 +12,9 @@ html, body, #container {
 .left-col {
     display: none;
 }
+.left-col,.hamburger {
+    display:none
+}
 .mid-col {
     left: 0;
     position: relative;
